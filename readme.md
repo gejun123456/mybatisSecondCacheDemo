@@ -1,9 +1,9 @@
 ## SpringBoot Project use mybatis second level cache
 
-Set up database
-Set up admin.sql
-Run MybatisplusspringbootcacheExampleApplicationTests.java
-Debug CachingExecutor
+1. Set up database
+2. Set up admin.sql
+3. Run MybatisplusspringbootcacheExampleApplicationTests.java
+4. Debug CachingExecutor
 ```java
  public <E> List<E> query(MappedStatement ms, Object parameterObject, RowBounds rowBounds, ResultHandler resultHandler, CacheKey key, BoundSql boundSql) throws SQLException {
         Cache cache = ms.getCache();
